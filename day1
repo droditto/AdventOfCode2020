@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 			}
 		}while(ctrl == 1);
 		
-		// Comprobar qué némeros suman 2020 entre si
+		// Comprobar qué números suman 2020 entre si
 		for(i = 0; i < N; i++){
 			for(j = i + 1; j < N; j++){
 				if(v_num[i] + v_num[j] == 2020){
