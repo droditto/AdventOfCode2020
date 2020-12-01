@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 			}
 		}while(ctrl == 1);
 		
-		// Comprobar que números suman 2020 entre sí
+		// Comprobar qué números suman 2020 entre si
 		for(i = 0; i < N; i++){
 			for(j = i + 1; j < N; j++){
 				for(k = j + 1; k < N; k++){
